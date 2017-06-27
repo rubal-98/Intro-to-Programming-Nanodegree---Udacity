@@ -1,0 +1,48 @@
+body {
+    font-family: arial;
+    background-image: linear-gradient(to right, grey 0%, white 100%);
+    text-align: justify;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    margin: 25px 25vw;
+}
+h1 {
+    text-align: center;
+}
+div {
+    width: 100%;
+}
+.head {
+    background-color: #ffa31a;
+}
+div {
+    width: 100%;
+}
+.row1 {
+    background-color: #ffa31a;
+    text-align: center;
+}
+hr {
+    border: 0;
+    width: 100%;
+    background-color: #ffa31a;
+    height: 5px;
+}
+a:link {
+    color: #000000;
+}
+/* visited link */
+
+a:visited {
+    color: green;
+}
+/* mouse over link */
+
+a:hover {
+    color: #ff704d;
+}
+/* selected link */
+
+a:active {
+    color: blue;
+}
