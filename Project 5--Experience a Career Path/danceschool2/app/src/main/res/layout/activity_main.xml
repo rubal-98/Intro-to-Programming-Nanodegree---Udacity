@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fa8072"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.danceschool.MainActivity">
+
+    <ImageView
+        android:id="@+id/dance_image_view"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/danceschool1" />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@id/dance_image_view"
+        android:fontFamily="sans-serif"
+        android:padding="23dp"
+        android:text="Aspire School of Dance!!!"
+        android:textSize="23sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/loc_text_view"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dance_image_view"
+        android:padding="22dp"
+        android:text="Dance classes held at Chitkara University,On Tuesdays, Thursdays, Saturdays"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detail1_text_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/loc_text_view"
+        android:padding="16dp"
+        android:text="For More Information Praneet 0987654321 aspiredance@outlook.com" />
+
+    <TextView
+        android:id="@+id/danceform_text_view"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/loc_text_view"
+        android:layout_toEndOf="@id/detail1_text_view"
+        android:padding="22dp"
+        android:text="Ballet~Tap~Jazz~Acro~Street~Disco And much more" />
+
+    <TextView
+        android:id="@+id/detail2_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Our Dance Teacher Marca is fully qualified at HND level\n in styles that include Jazz, Ballet, Tap, \nCommercial/Hip-Hop, Musical Theatre and Contemporary/Lyrical.\n     Aspire Dance offers all of these styles
+        and is open to all levels of Dance for boys and girls!!"
+        android:textAlignment="center" />
+
+</RelativeLayout>
